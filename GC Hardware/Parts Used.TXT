@@ -17,3 +17,14 @@ Battery: https://www.batteryjunction.com/samsung-inr18650-25r.html
 
 SD Card Holder: https://www.mouser.com/ProductDetail/Yamaichi-Electronics/FPS009-2901-0?qs=sGAEpiMZZMuJakaoiLiBpkqkV16wW%2FQuMnjBf6N4MMU%3D
  -$1.56
+
+Power Switch: https://www.mouser.com/ProductDetail/ALPS/SSSS916400?qs=sGAEpiMZZMtHXLepoqNyVZ00iVNPaWvjf65RjkwMZnY%3D
+ -$0.92
+
+Buttons (x8): https://www.mouser.com/ProductDetail/CK/PTS647SK50SMTR2LFS?qs=sGAEpiMZZMsgGjVA3toVBHesIOE8acDvXC0FQCzLXio%3D
+ -$1.28
+
+Speaker: https://www.mouser.com/ProductDetail/CUI/CMS-23558N-L152?qs=sGAEpiMZZMuTkJYgZlQcSRgpSFmnQZMStzlXmXwErpOA2r%2Fdns6y5g%3D%3D
+ -$3.75
+
+TOTAL: $39.74
