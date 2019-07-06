@@ -3,7 +3,7 @@ Current list and prices of parts:
 Display: https://www.mouser.com/ProductDetail/Displaytech/DT028BTFT?qs=sGAEpiMZZMu%2FRY1bNe3bO6wz7D657ZcElFus3Tx8fG9a662FaXFgdw%3D%3D
  -$21.62
 
-Microcontroller: https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY24V-10SSU?qs=sGAEpiMZZMvqv2n3s2xjsViK%2FE7aLZlHv1i5ASai%2F%2Fg%3D
+Microcontroller: https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY84V-10SSU?qs=sGAEpiMZZMvqv2n3s2xjscB1v0VMr4HcRguGdTruMjs%3D
  -$1.63
 
 Storage: https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR25H640FJ-2CE2?qs=sGAEpiMZZMuVhdAcoizlRVBDy89uKeWDmqbltt7Ngqs%3D
