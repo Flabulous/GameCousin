@@ -3,8 +3,8 @@ Current list and prices of parts:
 Display: https://www.mouser.com/ProductDetail/Displaytech/DT028BTFT?qs=sGAEpiMZZMu%2FRY1bNe3bO6wz7D657ZcElFus3Tx8fG9a662FaXFgdw%3D%3D
  -$21.62
 
-Microcontroller: https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATTINY84V-10SSU?qs=sGAEpiMZZMvqv2n3s2xjscB1v0VMr4HcRguGdTruMjs%3D
- -$1.63
+Microcontroller: https://www.parallax.com/product/p8x32a-d40
+ -$7.99
 
 Storage: https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR25H640FJ-2CE2?qs=sGAEpiMZZMuVhdAcoizlRVBDy89uKeWDmqbltt7Ngqs%3D
  -$1.06
@@ -12,8 +12,8 @@ Storage: https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR25H640FJ-2CE2
 BT Link: https://www.mouser.com/ProductDetail/Laird-Connectivity/453-00005?qs=sGAEpiMZZMsGelYiB%252BjhZoug4L%2FWODSMjbKo4CRGaLrDeWyb7x66Rg%3D%3D
  -$4.99
 
-Battery: https://www.batteryjunction.com/samsung-inr18650-25r.html
- -$3.95
+Battery: https://www.batteryjunction.com/efest-3712-button.html
+ -$4.00
 
 SD Card Holder: https://www.mouser.com/ProductDetail/Yamaichi-Electronics/FPS009-2901-0?qs=sGAEpiMZZMuJakaoiLiBpkqkV16wW%2FQuMnjBf6N4MMU%3D
  -$1.56
@@ -27,4 +27,4 @@ Buttons (x8): https://www.mouser.com/ProductDetail/CK/PTS647SK50SMTR2LFS?qs=sGAE
 Speaker: https://www.mouser.com/ProductDetail/CUI/CMS-23558N-L152?qs=sGAEpiMZZMuTkJYgZlQcSRgpSFmnQZMStzlXmXwErpOA2r%2Fdns6y5g%3D%3D
  -$3.75
 
-TOTAL: $39.74
+TOTAL: $47.17
