@@ -3,7 +3,7 @@ kept here.
 
 TODO:
 Get all parts required for GC (Done-ish)
-Create software
+Create software (I think that I am going to use a modified version of the Gambit Emulator in C)
 Design PCB
 Design Case
 Get a store set up on Etsy and start selling. 
