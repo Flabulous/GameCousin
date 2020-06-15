@@ -1,0 +1,14 @@
+program is split up into three main seperate threads
+
+I have to write a program that is removed as much as possible to what it is running on so that it can be ran on anything. 
+All GPIOs are going to have to be wrote to a space in memory that is picked back up by pointers to said areas in memory then
+
+
+management:
+main.c - Sets up the emulation enviroment for PC and kickstarts the emulator (THIS WILL HAVE TO BE EDITED TO WORK WITH OTHER SYSTEMS)
+mem.c - Manages memory for all the processors
+
+processors:
+cpu.c - Emulates the SHARP LR35902
+apu.c - Emulates the Audio Processing Unit
+ppu.c - Emulates the Pixel Processing Unit
