@@ -19,3 +19,6 @@ struct registers //Declare the standard 8 bit registers and the virtual 16 bit r
     int16_t hl;
 };
 
+int doCPUcycle () {
+
+}
