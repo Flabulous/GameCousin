@@ -7,6 +7,13 @@ VERSION 0.0.0
 */
 int main()
 {
-    printf("RidleyGBEv000 Booting...\n");
+
+    char[256] gb_rom;
+    printf("RidleyGBEv000 Loaded.\n");
+    gets(gb_rom);
+
+    //START FUNCTIONS
+    memLoadROM(gb_rom);
+
     return 0;
 }
