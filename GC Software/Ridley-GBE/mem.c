@@ -2,16 +2,19 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-int memLoadROM(char[256] gbrom)
+FILE memLoadROM(char gbrom[256])
 {
     FILE *rom;
+    FILE *fail = 0;
 
     rom = fopen(gbrom, "w");
 
     if (rom == NULL) {
-        printf("Error opening file.");
-        return -1;
-    }
+        printf("\nError Opening File\n");
+        return *fail;
 
-    return rom;
+    } else {
+        printf("\nROM Loaded.\n");
+        return *rom;
+    }
 }

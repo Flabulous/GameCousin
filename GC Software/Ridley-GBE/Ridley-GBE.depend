@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1592426669 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\apu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1592426669 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\ppu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1592501427 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\cpu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1592426669 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\opcodes.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1592501857 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+
+1592502015 source:c:\users\flab\documents\github\gamecousin\gc software\ridley-gbe\mem.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+

@@ -17,4 +17,8 @@ struct registers //Declare the standard 8 bit registers and the virtual 16 bit r
     int16_t bc;
     int16_t de;
     int16_t hl;
+
+    int16_t sp;
+    int16_t pc;
+
 };

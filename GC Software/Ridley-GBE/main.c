@@ -7,13 +7,15 @@ VERSION 0.0.0
 */
 int main()
 {
+    char bios_rom[256];
+    char game_rom[256];
+    printf("RidleyGBEv000 Loaded.");
 
-    char[256] gb_rom;
-    printf("RidleyGBEv000 Loaded.\n");
-    gets(gb_rom);
+    printf("\nEnter the name of the GameBoy BIOS ROM: ");
+    gets(bios_rom);
 
-    //START FUNCTIONS
-    memLoadROM(gb_rom);
+    printf("\n Enter the name of the GameBoy GAME ROM: ");
+    gets(game_rom);
 
     return 0;
 }
