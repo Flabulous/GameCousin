@@ -10,11 +10,9 @@ FILE memLoadROM(char gbrom[256])
     rom = fopen(gbrom, "w");
 
     if (rom == NULL) {
-        printf("\nError Opening File\n");
         return *fail;
 
     } else {
-        printf("\nROM Loaded.\n");
         return *rom;
     }
 }
