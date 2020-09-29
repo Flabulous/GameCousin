@@ -1,12 +1,12 @@
 /*
-RIDLEY GAMEBOY EMULATOR
+GAMECOUSIN OS "RIDLEY"
 VERSION 0.0.0
 
 Contains:
 - GUI that loads on startup of the GC
 - Recompiler that takes the selected ROM and changes it from SHARP assembly to some sort of assembly
-- GameBoy Runtime that will play the recompiled ROM
-- Clock modifier that will control the chip's clock speed to match that of the GB's exactly.
+- Runtime that will play the recompiled ROM
+- Clock modifier that will control the chip's clock speed to match the framerate of the GB's exactly.
 
 DISCLAIMER:
 - This program will not emulate all of the original GameBoy's properties exactly. All it needs is a clock speed modifier
@@ -22,12 +22,6 @@ DISCLAIMER:
 
 int main()
 {
-    char bios_rom[256];
-    char game_rom[256];
-
-    gets(bios_rom);
-
-    gets(game_rom);
 
     return 0;
 }

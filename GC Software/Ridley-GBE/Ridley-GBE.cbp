@@ -31,22 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="apu.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="cpu.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="main.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="mem.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="opcodes.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ppu.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="win.c">
