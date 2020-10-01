@@ -20,9 +20,17 @@ DISCLAIMER:
 #include <stdlib.h>
 #include <stdint.h>
 
+int winruntime();
+
 int main()
 {
+    #ifdef _WIN32 // Includes both 32 bit and 64 bit
+	    #ifdef _WIN64
+	        winruntime();
+	    #else
+	        winruntime();
+	    #endif
+    #endif
 
     return 0;
 }
-

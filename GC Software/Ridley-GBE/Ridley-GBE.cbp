@@ -34,7 +34,7 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="win.c">
+		<Unit filename="win-env.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
