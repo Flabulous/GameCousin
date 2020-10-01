@@ -3,8 +3,8 @@ Current list and prices of parts:
 Display: https://www.mouser.com/ProductDetail/Displaytech/DT028BTFT?qs=sGAEpiMZZMu%2FRY1bNe3bO6wz7D657ZcElFus3Tx8fG9a662FaXFgdw%3D%3D
  -$21.62
 
-Microcontroller: https://www.parallax.com/product/p8x32a-d40
- -$7.99
+Microcontroller: https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAMA5D41B-CU?qs=sGAEpiMZZMsk5yEqv3Bk8fVmZewZsWqJ4HM%252BevAD7thzTCRH6%2FLjMw%3D%3D
+ -$9.98
 
 Storage: https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BR25G320F-3GE2?qs=sGAEpiMZZMuVhdAcoizlRVBDy89uKeWDn%252BppzdC9zvg%3D
  -$0.57
@@ -27,4 +27,4 @@ Buttons (x8): https://www.mouser.com/ProductDetail/CK/PTS647SK50SMTR2LFS?qs=sGAE
 Speaker: https://www.mouser.com/ProductDetail/CUI/CMS-23558N-L152?qs=sGAEpiMZZMuTkJYgZlQcSRgpSFmnQZMStzlXmXwErpOA2r%2Fdns6y5g%3D%3D
  -$3.75
 
-TOTAL: $46.68
+TOTAL: $
