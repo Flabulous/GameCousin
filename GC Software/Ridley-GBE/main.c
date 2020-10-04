@@ -21,6 +21,8 @@ DISCLAIMER:
 #include <stdint.h>
 
 int winruntime();
+int winopenrom();
+int winsetuprom();
 
 int main()
 {
