@@ -1,4 +1,5 @@
-static unsigned char rom_mem[0]; //Gameboy ROM
+//Gameboy variables
+unsigned char *rom_mem; //Gameboy ROM
 
 //Windows Enviroment
 int winruntime();

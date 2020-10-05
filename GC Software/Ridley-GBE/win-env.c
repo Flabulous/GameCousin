@@ -21,6 +21,7 @@ getrom:
 
 int winopenrom(char nme[256])
 {
+    //Open ROM file
     rom_file = fopen(nme, "r");
     if (rom_file == NULL) {
         printf("Error opening file\n");
@@ -33,20 +34,29 @@ int winopenrom(char nme[256])
 
 int winsetuprom()
 {
-    //Find size of ROM file
+    //Find size of ROM file (totally not grabbed from Stack)
     fseek(rom_file, 0, SEEK_END);
     int SIZE = ftell(rom_file);
     rewind(rom_file);
 
     printf("ROM is %d bytes in size.\n", SIZE);
 
+    rom_mem = malloc(SIZE); //allocate enough memory
     //Load selected ROM into memory
     printf("Loading...\n");
-    for(int i=1; i<=SIZE; i++) {
-        rom_mem[i] = getc(rom_file);
-        printf(" %x ",rom_mem[i]);
-    }
-    printf("\nLoaded.\n");
+    fread(rom_mem, 1, SIZE, rom_file);
+
+//    DEBUG CODE
+//    int c = 0;
+//    for(int i=1; i<=SIZE; i++) {
+//        printf(" %X ",rom_mem[i]);
+//        c = c+1;
+//    }
+
+    //Close original ROM file (look ma, I'm memory safe!)
+    fclose(rom_file);
+
+    printf("Loaded.\n");
 
     return 0;
 }
