@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-
-FILE *rom_file;
-static unsigned char rom_mem[0]; //Gameboy ROM
-int SIZE;
+#include "ridley.h"
 
 int winruntime() {
     printf("Ridley v0.01 Loaded.\n");
@@ -38,7 +35,7 @@ int winsetuprom()
 {
     //Find size of ROM file
     fseek(rom_file, 0, SEEK_END);
-    SIZE = ftell(rom_file);
+    int SIZE = ftell(rom_file);
     rewind(rom_file);
 
     printf("ROM is %d bytes in size.\n", SIZE);
@@ -50,9 +47,6 @@ int winsetuprom()
         printf(" %x ",rom_mem[i]);
     }
     printf("\nLoaded.\n");
-
-    printf("Array size: %d\n", sizeof(rom_mem));
-    printf("\n %x \n", rom_mem[0x01]);
 
     return 0;
 }
