@@ -12,7 +12,7 @@ getrom:
     printf("Enter the name of the ROM:\n");
     gets(input);
     int i = winopenrom(input);
-    if (i == -1) {goto getrom;} else {winsetuprom();}
+    if (i == -1) {goto getrom;} else {winsetuprom();} //In case of improper file, go back to start
 
     gets(input);
 
@@ -23,6 +23,8 @@ int winopenrom(char nme[256])
 {
     //Open ROM file
     rom_file = fopen(nme, "r");
+
+    //In case of improper file, return
     if (rom_file == NULL) {
         printf("Error opening file\n");
         return -1;
@@ -56,7 +58,12 @@ int winsetuprom()
     //Close original ROM file (look ma, I'm memory safe!)
     fclose(rom_file);
 
-    printf("Loaded.\n");
+    printf("Loaded. Internal ROM name:\n");
+    for (int i = 0x133; i <= 0x14E; i++) {
+        printf("%c",rom_mem[i]);
+    }
+    printf("\n");
+
 
     return 0;
 }
