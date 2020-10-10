@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include "ridley.h"
 
-int winruntime() {
+int winstart() {
     printf("Ridley v0.01 Loaded.\n");
 
     char input[256];
@@ -22,10 +22,11 @@ getrom:
 int winopenrom(char nme[256])
 {
     //Open ROM file
-    rom_file = fopen(nme, "r");
+    rom_file = fopen(nme, "rb");
 
     //In case of improper file, return
     if (rom_file == NULL) {
+        fclose(rom_file);
         printf("Error opening file\n");
         return -1;
     }
@@ -59,6 +60,7 @@ int winsetuprom()
     fclose(rom_file);
 
     printf("Loaded. Internal ROM name:\n");
+    //Grab internal ROM name (I hope this works with other ROMs)
     for (int i = 0x133; i <= 0x14E; i++) {
         printf("%c",rom_mem[i]);
     }
