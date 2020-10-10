@@ -25,11 +25,19 @@ int main()
 {
     #ifdef _WIN32 // Includes both 32 bit and 64 bit
 	    #ifdef _WIN64
-	        winruntime();
+	        winstart();
 	    #else
-	        winruntime();
+	        winstart();
 	    #endif
     #endif
+
+    return 0;
+}
+
+int initGB()
+{
+    ram_mem = malloc(65536);
+    vram_mem = malloc(65536);
 
     return 0;
 }
