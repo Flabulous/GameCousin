@@ -45,6 +45,7 @@ int winsetuprom()
     printf("ROM is %d bytes in size.\n", SIZE);
 
     rom_mem = malloc(SIZE); //allocate enough memory
+
     //Load selected ROM into memory
     printf("Loading...\n");
     fread(rom_mem, 1, SIZE, rom_file);

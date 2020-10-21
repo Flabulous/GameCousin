@@ -29,17 +29,30 @@
 	<stdlib.h>
 	<stdint.h>
 
-1601903167 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\main.c
+1602624328 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	"ridley.h"
 
-1602160153 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\win-env.c
+1602874289 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\win-env.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	"ridley.h"
+
+1602874191 c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\ridley.h
+
+1602874147 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\cpu.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	"ridley.h"
 
-1602080806 c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\ridley.h
+1602293474 source:c:\users\arandor\documents\github\gamecousin\gc software\ridley-gbe\opcodes.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"ridley.h"
 

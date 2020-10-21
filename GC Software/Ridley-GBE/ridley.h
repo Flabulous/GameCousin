@@ -10,6 +10,7 @@ unsigned char *rom_mem;
 unsigned char *ram_mem;
 unsigned char *vram_mem;
 
+
 //Registers (I think this will work)
 typedef union af {
     unsigned char a;
@@ -32,17 +33,30 @@ typedef union hl {
     unsigned char l;
     unsigned short hl;
 };
-//Opcodes
-unsigned char *ops_tbl;
+
+//Pointers
+unsigned short SP; //Stack pointer
+unsigned short PC; //Program Counter
+
+//Instructions
+unsigned char *inst_tbl;
 
 //x0
 int NOP();
 int STOP();
-int
-
-
+int JR_NZ();
+int JR_NC();
+int LD_BB();
+int LD_DB();
+int LD_HB();
+int LD_HLB();
+int ADD_AB();
+int SUB_B();
+int AND_B();
+int OR_B();
+int RET_NZ();
+int RET_NC();
+int LDH_XA();
+int LDH_AX();
 //x1
-int LDBCN();
-int LDBCA();
-int INCBC();
-int INCB();
+
