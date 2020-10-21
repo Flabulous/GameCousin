@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include "ridley.h"
 
-int winstart() {
+int pcstart() {
     printf("Ridley v0.01 Loaded.\n");
 
     char input[256];
@@ -11,15 +11,15 @@ int winstart() {
 getrom:
     printf("Enter the name of the ROM:\n");
     gets(input);
-    int i = winopenrom(input);
-    if (i == -1) {goto getrom;} else {winsetuprom();} //In case of improper file, go back to start
+    int i = pcopenrom(input);
+    if (i == -1) {goto getrom;} else {pcsetuprom();} //In case of improper file, go back to start
 
     gets(input);
 
     return 0;
 }
 
-int winopenrom(char nme[256])
+int pcopenrom(char nme[256])
 {
     //Open ROM file
     rom_file = fopen(nme, "rb");
@@ -35,12 +35,12 @@ int winopenrom(char nme[256])
     return 0;
 }
 
-int winsetuprom()
+int pcsetuprom()
 {
     //Find size of ROM file (totally not grabbed from Stack)
     fseek(rom_file, 0, SEEK_END);
     int SIZE = ftell(rom_file);
-    rewind(rom_file);
+    repcd(rom_file);
 
     printf("ROM is %d bytes in size.\n", SIZE);
 

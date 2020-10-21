@@ -1,8 +1,8 @@
 
-//Windows-PC Enviroment
-int winstart();
-int winopenrom();
-int winsetuprom();
+//PC Enviroment
+int pcstart();
+int pcopenrom();
+int pcsetuprom();
 FILE *rom_file;
 
 //Gameboy variables
@@ -59,4 +59,5 @@ int RET_NC();
 int LDH_XA();
 int LDH_AX();
 //x1
-
+int LD_BCX();
+int LD_

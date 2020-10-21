@@ -1,5 +1,5 @@
 /*
-GAMECOUSIN OS "RIDLEY"
+mGBCL/HE MODULAR GAMEBOY COMPATIBILITY LAYER / HARDWARE EMULATOR
 VERSION 0.0.0
 
 Contains:
@@ -16,15 +16,15 @@ DISCLAIMER:
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "ridley.h"
+#include "mGBcl.h"
 
 int main()
 {
     #ifdef _WIN32 // Includes both 32 bit and 64 bit
 	    #ifdef _WIN64
-	        winstart();
+	        pcstart();
 	    #else
-	        winstart();
+	        pcstart();
 	    #endif
     #endif
 

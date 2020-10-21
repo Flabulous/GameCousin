@@ -56,3 +56,15 @@
 	<stdint.h>
 	"ridley.h"
 
+1602874147 source:c:\users\arandor\documents\github\gamecousin\gc software\mgbcl\cpu.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"ridley.h"
+
+1602293474 source:c:\users\arandor\documents\github\gamecousin\gc software\mgbcl\opcodes.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"ridley.h"
+
