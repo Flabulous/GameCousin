@@ -41,11 +41,15 @@ unsigned short PC; //Program Counter
 //Instructions
 unsigned char *inst_tbl;
 
+// X  - 8b of data
+// XX - 16b of data
+
+//This is poorly formatted. Sorry. Will refactor when I don't have better things to do
 //x0
 int NOP();
 int STOP();
-int JR_NZ();
-int JR_NC();
+int JR_NZX();
+int JR_NCX();
 int LD_BB();
 int LD_DB();
 int LD_HB();
@@ -59,5 +63,15 @@ int RET_NC();
 int LDH_XA();
 int LDH_AX();
 //x1
-int LD_BCX();
-int LD_
+int LD_BCXX();
+int LD_DEXX();
+int LD_HLXX();
+int LD_SPXX();
+int LD_BC();
+int LD_DC();
+int LD_HC();
+int LD_HLC();
+int
+
+
+

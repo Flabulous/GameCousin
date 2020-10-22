@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Ridley-GBE" />
+		<Option title="mGBcl" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -34,13 +34,13 @@
 		<Unit filename="cpu.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="mGBcl.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="opcodes.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ridley.h" />
 		<Unit filename="win-env.c">
 			<Option compilerVar="CC" />
 		</Unit>

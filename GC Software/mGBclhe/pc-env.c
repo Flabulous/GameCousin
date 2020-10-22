@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "ridley.h"
+#include "mGBclhe.h"
 
 int pcstart() {
     printf("Ridley v0.01 Loaded.\n");
