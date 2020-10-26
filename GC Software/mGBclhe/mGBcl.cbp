@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="mGBcl" />
+		<Option title="mGBclhe" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -34,14 +34,14 @@
 		<Unit filename="cpu.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="mGBcl.h" />
+		<Unit filename="instructions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mGBclhe.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="opcodes.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="win-env.c">
+		<Unit filename="pc-env.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
